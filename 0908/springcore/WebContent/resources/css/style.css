@@ -1,0 +1,239 @@
+
+
+/*header*/
+header{
+  width: 100%;
+  height: 100px;
+}
+.imgheader{
+    width: 40%;
+    height: 99px;
+}
+.right_form_header{
+  color: #ddd;
+}
+/* Start header form */
+#form_wrapper_header {
+  width: 100%;
+  margin: auto;
+  background-color: var(--form_bg);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+#form_left_header {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+#form_righ_header {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+  text-align: center;
+}
+/* End header form */
+/*end header*/
+/*body*/
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../image/loginbg.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+.body_form{
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    border-style: groove;
+    background-color: rgba(245, 239, 239, 0.829);
+}
+
+.body_form_in{
+  width: 98%;
+  height: 100%;
+}
+  
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+td, th {
+    border: 1px solid #b3a8a8;
+    text-align: center;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+/* Start search Condition form */
+#form_wrapper {
+    width: 100%;
+    height: 220px;
+    margin: auto;
+    background-color: var(--form_bg);
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5vh 15px;
+}
+#form_left {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    height: 100%;
+  }
+#form_middle {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+#form_right {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    height: 100%;
+}
+/* End Search Condition form */
+
+/* Start 2-1-1 form */
+#form_wrapper_211 {
+  width: 100%;
+  height: 220px;
+  margin: auto;
+  background-color: var(--form_bg);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 2vh 15px;
+}
+#form_left_211 {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+#form_middle_211 {
+grid-template-columns: 1fr;
+grid-gap: 20px;
+height: 100%;
+}
+#form_right_211 {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+/* End Search Condition form */
+
+/* Start mini form */
+#form_wrapper_mini {
+    width: 100%;
+    margin: auto;
+    background-color: var(--form_bg);
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    padding: 3vh 15px;
+}
+#form_left_mini {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    height: 100%;
+  }
+#form_righ_mini {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    height: 100%;
+    text-align: center;
+}
+/* End mini form */
+/* Start add form */
+#form_wrapper_max {
+  width: 98%;
+  height: 100%;
+  margin: auto;
+  background-color: var(--form_bg);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 2vh 15px;
+}
+#form_left_max {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+  border-style: groove;
+}
+#form_right_max {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+  border-style: groove;
+}
+/* End add form */
+
+/* Start Vote option form */
+#form_wrapper_VoteOption {
+  width: 100%;
+  height: 220px;
+  margin: auto;
+  background-color: var(--form_bg);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5vh 15px;
+}
+#form_left_VoteOption {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+#form_right_VoteOption {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+
+/**/
+.tablediv{
+  width: 65%;
+  height: 200px;
+  border-style: groove;
+  background-color: rgba(255, 253, 253, 0.945);
+  margin: auto;
+  overflow: auto;
+}
+
+.tablediv2{
+  width: 80%;
+  height: 200px;
+  border-style: groove;
+  margin: auto;
+  overflow: auto;
+}
+
+#scroll {
+  height: 100px;
+  overflow-y: hidden;
+}
+a.btn-add {
+    color: white;
+}
+#logout{
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.disabled {
+	display: none;
+	pointer-events: none;
+}
